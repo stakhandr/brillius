@@ -1,0 +1,9 @@
+# Файлы
+*.psd
+*.cfg
+*.ini
+
+# Папки
+input/
+node_modules/
+sourceimages/
