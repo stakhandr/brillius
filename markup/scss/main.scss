@@ -72,10 +72,12 @@ h3{
 	text-transform: uppercase;
 	@include media('>=screen-sm'){
 		height: 82px;
+		padding: 21px;
 	}
 	@include media('>=screen-md'){
 		width: 940px;
 		height: 82px;
+		padding: 21px;
 		margin: 0 auto;
 		font-size: 15px;
 	}

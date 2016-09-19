@@ -1381,6 +1381,7 @@ textarea
     .navbar-header
     {
         height: 82px;
+        padding: 21px;
     }
 
     .header-logo
@@ -1495,6 +1496,7 @@ textarea
         width: 940px;
         height: 82px;
         margin: 0 auto;
+        padding: 21px;
     }
 
     .heading
