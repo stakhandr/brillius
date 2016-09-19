@@ -58,7 +58,7 @@ h3{
 		width: 1140px;
 	}
 }
-.about .row{
+.about .about__skills{
 	@include media('>=screen-lg'){
 		margin-left: -20px;
 		margin-right: -20px;
@@ -858,8 +858,10 @@ input[type="submit"]{
 	}
 }
 .btn-submit{
-	text-align: right;
 	margin: 12px -6px;
+	@include media('>=screen-sm'){
+		text-align: right;
+	}
 }
 textarea {
 	max-width: 100%;
@@ -919,7 +921,9 @@ textarea {
 }
 .logo-holder{
 	text-align: center;
-	margin-top: 50px;
+	@include media('>=screen-sm'){
+		margin-top: 50px;
+	}
 }
 .logo-footer{
 	display: inline-block;

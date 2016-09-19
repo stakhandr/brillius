@@ -1200,8 +1200,6 @@ input[type='submit']:hover
 .btn-submit
 {
     margin: 12px -6px;
-
-    text-align: right;
 }
 
 textarea
@@ -1302,8 +1300,6 @@ textarea
 
 .logo-holder
 {
-    margin-top: 50px;
-
     text-align: center;
 }
 
@@ -1471,6 +1467,16 @@ textarea
         font-size: 28px;
 
         padding: 17px 34px;
+    }
+
+    .btn-submit
+    {
+        text-align: right;
+    }
+
+    .logo-holder
+    {
+        margin-top: 50px;
     }
 }
 
@@ -1696,7 +1702,7 @@ textarea
         width: 1140px;
     }
 
-    .about .row
+    .about .about__skills
     {
         margin-right: -20px;
         margin-left: -20px;
