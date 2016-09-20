@@ -59,8 +59,8 @@ blockquote
     font-weight: normal;
     font-style: normal;
 
-    src: url('../fonts/Icomoon/icomoon.eot?8e81oj');
-    src: url('../fonts/Icomoon/icomoon.eot?8e81oj#iefix') format('embedded-opentype'), url('../fonts/Icomoon/icomoon.ttf?8e81oj') format('truetype'), url('../fonts/Icomoon/icomoon.woff?8e81oj') format('woff'), url('../fonts/Icomoon/icomoon.svg?8e81oj#icomoon') format('svg');
+    src: url('fonts/icomoon.eot?rthefh');
+    src: url('fonts/icomoon.eot?rthefh#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?rthefh') format('truetype'), url('fonts/icomoon.woff?rthefh') format('woff'), url('fonts/icomoon.svg?rthefh#icomoon') format('svg');
 }
 
 [class^='icon-'],
@@ -183,6 +183,96 @@ blockquote
     content: '\ea96';
 }
 
+.icon-alert:before
+{
+    content: '\f02d';
+}
+
+.icon-star:before
+{
+    content: '\f02a';
+}
+
+.icon-cross:before
+{
+    content: '\ea0f';
+}
+
+.icon-checkmark:before
+{
+    content: '\ea10';
+}
+
+.icon-amazon:before
+{
+    content: '\ea87';
+}
+
+.icon-google-plus:before
+{
+    content: '\ea8b';
+}
+
+.icon-facebook:before
+{
+    content: '\ea90';
+}
+
+.icon-twitter:before
+{
+    content: '\ea96';
+}
+
+.icon-vimeo:before
+{
+    content: '\eaa0';
+}
+
+.icon-flickr:before
+{
+    content: '\eaa3';
+}
+
+.icon-dribbble:before
+{
+    content: '\eaa7';
+}
+
+.icon-behance:before
+{
+    content: '\eaa8';
+}
+
+.icon-github:before
+{
+    content: '\eab0';
+}
+
+.icon-tumblr:before
+{
+    content: '\eab9';
+}
+
+.icon-yahoo:before
+{
+    content: '\eabb';
+}
+
+.icon-skype:before
+{
+    content: '\eac5';
+}
+
+.icon-linkedin2:before
+{
+    content: '\eaca';
+}
+
+.icon-pinterest:before
+{
+    content: '\ead1';
+}
+
 *
 {
     box-sizing: border-box;
@@ -201,7 +291,7 @@ h3
     padding: 0 20px;
 }
 
-.navbar-header
+.container > .navbar-header
 {
     font: bold 12px/1.5 'Oxygen', Arial, sans-serif;
 
@@ -1378,7 +1468,7 @@ textarea
         font-size: 29px;
     }
 
-    .navbar-header
+    .container > .navbar-header
     {
         height: 82px;
         padding: 21px;
@@ -1489,12 +1579,13 @@ textarea
         padding: 0;
     }
 
-    .navbar-header
+    .container > .navbar-header
     {
         font-size: 15px;
 
         width: 940px;
         height: 82px;
+        margin: 0 auto;
         margin: 0 auto;
         padding: 21px;
     }
@@ -1699,11 +1790,6 @@ textarea
 
 @media (min-width: 1200px)
 {
-    .home .container
-    {
-        width: 1140px;
-    }
-
     .about .about__skills
     {
         margin-right: -20px;

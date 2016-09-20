@@ -53,18 +53,13 @@ h3{
 		padding: 0;
 	}
 }
-.home .container{
-	@include media('>=screen-lg'){
-		width: 1140px;
-	}
-}
 .about .about__skills{
 	@include media('>=screen-lg'){
 		margin-left: -20px;
 		margin-right: -20px;
 	}
 }
-.navbar-header{
+.container > .navbar-header{
 	height: 100px;
 	padding: 21px;
 	background: $nav-bg;
@@ -75,6 +70,7 @@ h3{
 		padding: 21px;
 	}
 	@include media('>=screen-md'){
+		margin: 0 auto;
 		width: 940px;
 		height: 82px;
 		padding: 21px;
