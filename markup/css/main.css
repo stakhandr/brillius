@@ -120,10 +120,12 @@ blockquote
 
 .contact-icon
 {
+    font-size: 25px;
+
     width: 40px;
     height: 40px;
     margin: 10px 10px 0 0;
-    padding: 10px;
+    padding: 8px;
 
     border-radius: 50%;
     background: rgba(0, 0, 0, .25);
@@ -193,25 +195,9 @@ blockquote
     content: '\ea96';
 }
 
-.icon-amazon
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
-}
-
 .icon-amazon:before
 {
     content: '\ea87';
-}
-
-.icon-vimeo
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
 }
 
 .icon-vimeo:before
@@ -219,25 +205,9 @@ blockquote
     content: '\eaa0';
 }
 
-.icon-flickr
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
-}
-
 .icon-flickr:before
 {
     content: '\eaa3';
-}
-
-.icon-dribbble
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
 }
 
 .icon-dribbble:before
@@ -245,25 +215,9 @@ blockquote
     content: '\eaa7';
 }
 
-.icon-behance
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
-}
-
 .icon-behance:before
 {
     content: '\eaa8';
-}
-
-.icon-github
-{
-    font-size: 20px;
-
-    top: 29%;
-    left: 4%;
 }
 
 .icon-github:before
@@ -271,25 +225,9 @@ blockquote
     content: '\eab0';
 }
 
-.icon-tumblr
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
-}
-
 .icon-tumblr:before
 {
     content: '\eab9';
-}
-
-.icon-yahoo
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
 }
 
 .icon-yahoo:before
@@ -297,38 +235,14 @@ blockquote
     content: '\eabb';
 }
 
-.icon-skype
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
-}
-
 .icon-skype:before
 {
     content: '\eac5';
 }
 
-.icon-linkedin2
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
-}
-
 .icon-linkedin2:before
 {
     content: '\eaca';
-}
-
-.icon-pinterest
-{
-    font-size: 40px;
-
-    top: 29%;
-    left: 4%;
 }
 
 .icon-pinterest:before
@@ -1544,19 +1458,21 @@ textarea
     overflow: hidden;
 }
 
-/*
-.pp{
-	position:absolute;
-	top:0;
-	left:75px;
-	//transform:translateX(-50%);
-	z-index:999;
-	opacity:.5;
-	pointer-events:none;
-	background: url(../images/pp.jpg) no-repeat;
-	width: 100%;
-	height: 8500px;
-}*/
+.pp
+{
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 75px;
+
+    width: 100%;
+    height: 8500px;
+
+    pointer-events: none;
+
+    opacity: .5;
+    background: url(../images/pp.jpg) no-repeat;
+}
 
 @media (min-width: 768px)
 {
