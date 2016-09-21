@@ -195,13 +195,13 @@ h3{
 		}
 	}
 	.glyphicon-chevron-left{
-		background: url("../sourceimages/arrow-left.png");
+		background: url("../images/arrow-left.png");
 		@include media('>=screen-lg'){
 			left: -22px;
 		}
 	}
 	.glyphicon-chevron-right{
-		background: url("../sourceimages/arrow-right.png");
+		background: url("../images/arrow-right.png");
 		@include media('>=screen-lg'){
 			right: -22px;
 		}
@@ -286,7 +286,7 @@ h3{
 	&:before{
 		content: '';
 		position: absolute;
-		background: url('../sourceimages/quotes.png');
+		background: url('../images/quotes.png');
 		top: 6px;
 		left: 15px;
 		width: 21px;
@@ -614,7 +614,7 @@ h3{
 		&:before{
 			content: '';
 			position: absolute;
-			background: url("../sourceimages/quotes.png");
+			background: url("../images/quotes.png");
 			top: -5px;
 			left: -5px;
 			width: 14px;
