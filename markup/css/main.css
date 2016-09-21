@@ -549,14 +549,14 @@ h3
 .about__skill:before
 {
     position: absolute;
-    top: 43%;
+    top: 42%;
     left: 50%;
 
-    -webkit-transform: translateY(-43%);
+    -webkit-transform: translateY(-42%);
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateY(-43%);
+        -ms-transform: translateY(-42%);
         -ms-transform: translateX(-50%);
-            transform: translateY(-43%);
+            transform: translateY(-42%);
             transform: translateX(-50%);
 }
 
@@ -678,7 +678,7 @@ h3
 
 .team__social
 {
-    padding: 6px 0;
+    padding: 5px 0;
 }
 
 .team__social a
@@ -698,7 +698,7 @@ h3
     display: -ms-flexbox;
     display:         flex;
 
-    margin-top: 48px;
+    margin-top: 47px;
 
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -776,7 +776,7 @@ h3
 
 .portfolio__item
 {
-    margin-bottom: 34px;
+    margin-bottom: 33px;
 }
 
 .blog
@@ -793,7 +793,7 @@ h3
 {
     overflow: hidden;
 
-    margin: -13px 0;
+    margin: -14px 0;
     padding: 0 2px;
 
     text-align: left;
@@ -880,7 +880,7 @@ h3
 
 .widget-categories li
 {
-    padding-bottom: 5px;
+    padding-bottom: 4px;
 }
 
 .widget-categories a
@@ -898,7 +898,7 @@ h3
     font-family: Arial, sans-serif;
     line-height: 1.45;
 
-    margin: -5px 0 23px;
+    margin: -6px 0 24px -1px;
 }
 
 .shortcodes
@@ -936,7 +936,7 @@ h3
 
 .shortcodes-elements
 {
-    padding: 5px 0 2px;
+    padding: 4px 0 1px;
 }
 
 .shortcodes-elements ul
@@ -951,7 +951,7 @@ h3
 
 .shortcodes-elements li
 {
-    padding-bottom: 5px;
+    padding-bottom: 4px;
 }
 
 .shortcodes-elements blockquote
@@ -1117,7 +1117,7 @@ h3
 
 .tab-pane p
 {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .nav-tabs
@@ -1153,7 +1153,7 @@ h3
 .box-holder
 {
     margin-bottom: 10px;
-    padding: 5px 0 20px 19px;
+    padding: 5px 0 15px 20px;
 
     border-left: 5px solid rgba(255, 255, 255, .5);
     background: rgba(255, 255, 255, .1);
@@ -1162,7 +1162,7 @@ h3
 .buttons
 {
     margin-top: 3px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .btn
@@ -1213,7 +1213,7 @@ h3
     position: relative;
 
     margin-bottom: 10px;
-    padding: 23px 5px 18px 85px;
+    padding: 23px 5px 15px 85px;
 }
 
 .contact
@@ -1286,7 +1286,7 @@ input[type='submit']:hover
 
 .btn-submit
 {
-    margin: 12px -6px 0;
+    margin: 2px -6px 0;
 }
 
 textarea
@@ -1341,12 +1341,12 @@ textarea
 
 .contact-form
 {
-    padding: 8px 0 0;
+    padding: 5px 0 0;
 }
 
 .contact__social
 {
-    font-size: 24px;
+    font-size: 26px;
 
     margin: 8px 0;
 }
@@ -1363,7 +1363,7 @@ textarea
 
 .contact__info p
 {
-    margin-bottom: 23px;
+    margin-bottom: 20px;
 }
 
 .footer
@@ -1600,7 +1600,7 @@ textarea
 
     .contact__info
     {
-        margin: 30px 0 47px;
+        margin: 30px 0 46px;
     }
 
     .logo-holder
@@ -1650,27 +1650,27 @@ textarea
 
     .team .heading
     {
-        margin: 46px 0 70px;
+        margin: 46px 0 69px;
     }
 
     .portfolio .heading
     {
-        margin: 47px 0 37px;
+        margin: 47px 0 36px;
     }
 
     .blog .heading
     {
-        margin: 66px 0 44px;
+        margin: 66px 0 42px;
     }
 
     .shortcodes .heading
     {
-        margin: 53px 0 56px;
+        margin: 52px 0 55px;
     }
 
     .contact .heading
     {
-        margin: 66px 0 52px;
+        margin: 65px 0 52px;
     }
 
     .carousel-control .glyphicon
@@ -1680,23 +1680,17 @@ textarea
 
     .carousel-caption
     {
-        top: 40px;
+        top: 38px;
     }
 
     .about .testimonials
     {
-        margin: 20px auto 0;
-    }
-
-    .about__skill:before
-    {
-        /*left: 57%;
-			transform:translateX(-57%);*/
+        margin: 17px auto 0;
     }
 
     .item-img
     {
-        margin-bottom: 8px;
+        margin-bottom: 7px;
     }
 
     .team__item
@@ -1716,7 +1710,7 @@ textarea
 
     .portfolio .last
     {
-        margin-bottom: 76px;
+        margin-bottom: 75px;
     }
 
     .portfolio .item-img
@@ -1726,7 +1720,7 @@ textarea
 
     .widget
     {
-        margin-bottom: 11px;
+        margin-bottom: 10px;
     }
 
     .widget-search
@@ -1744,8 +1738,6 @@ textarea
     .shortcodes-columns
     {
         font-size: 14px;
-
-        margin-bottom: 2px;
     }
 
     .shortcodes-elements ul
@@ -1776,17 +1768,17 @@ textarea
 
     .shortcodes-tabs
     {
-        padding: 22px 0 4px;
+        padding: 22px 0 1px;
     }
 
     .shortcodes-buttons
     {
-        padding: 12px 0 5px;
+        padding: 12px 0 6px;
     }
 
     .shortcodes-boxes
     {
-        padding: 14px 0 41px;
+        padding: 14px 0 40px;
     }
 
     .tabs .tabs-holder .nav-tabs li > a
@@ -1842,12 +1834,6 @@ textarea
     .carousel-control .glyphicon-chevron-right
     {
         right: -22px;
-    }
-
-    .about__skill:before
-    {
-        /*left: 50%;
-			transform:translateX(-50%);*/
     }
 }
 
