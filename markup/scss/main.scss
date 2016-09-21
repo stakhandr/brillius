@@ -129,7 +129,7 @@ h3{
 		line-height: 1;
 		background: $text-bg;
 		border-radius: 25px;
-		padding: 12px 21px;
+		padding: 11px 21px;
 		margin-top: 14px;
 		@include media('>=screen-sm'){
 			padding: 12px 26px;
@@ -143,32 +143,32 @@ h3{
 }
 .about .heading{
 	@include media('>=screen-md'){
-		margin: 60px 0 71px;
+		margin: 60px 0 69px;
 	}
 }
 .team .heading{
 	@include media('>=screen-md'){
-		margin: 46px 0 69px;
+		margin: 45px 0 69px;
 	}
 }
 .portfolio .heading{
 	@include media('>=screen-md'){
-		margin: 47px 0 36px;
+		margin: 46px 0 36px;
 	}
 }
 .blog .heading{
 	@include media('>=screen-md'){
-		margin: 66px 0 42px;
+		margin: 66px 0 41px;
 	}
 }
 .shortcodes .heading{
 	@include media('>=screen-md'){
-		margin: 52px 0 55px;
+		margin: 52px 0 53px;
 	}
 }
 .contact .heading{
 	@include media('>=screen-md'){
-		margin: 65px 0 52px;
+		margin: 66px 0 50px;
 	}
 }
 .home{
@@ -225,7 +225,7 @@ h3{
 		top: 38px;
 	}
 	.subtitle{
-		margin-top: 2px;
+		margin-top: 1px;
 	}
 }
 .about{
@@ -254,7 +254,7 @@ h3{
 .about .testimonials{
 	overflow: hidden;
 	@include media('>=screen-md'){
-		margin: 17px auto 0;
+		margin: 18px auto 0;
 	}
 }
 .testimonials-decor{
@@ -273,14 +273,14 @@ h3{
 	}
 }
 .about blockquote{
-	padding: 25px 4px 0 29px;
+	padding: 24px 5px 0 29px;
 	font-size: $font-size-base;
 	p{
-		line-height: 1.35;
+		line-height: 1.45;
 		margin-bottom: 16px;
 	}
 	@include media('>=screen-sm'){
-		font-size: $font-size-h5;
+		font-size: 17px;
 		padding-bottom: 55px;
 	}
 	&:before{
@@ -304,8 +304,8 @@ h3{
 	text-align: center;
 	&:before{
 		position: absolute;
-		top: 42%;
-		transform:translateY(-42%);
+		top: 43%;
+		transform:translateY(-43%);
 		left: 50%;
 		transform:translateX(-50%);
 	}
@@ -474,7 +474,7 @@ h3{
 .post-review{
 	overflow: hidden;
 	padding: 0 2px;
-	margin: -14px 0;
+	margin: -15px 0;
 	text-align: left;
 	h3{
 		margin-bottom: 19px;
@@ -567,7 +567,7 @@ h3{
 }
 .shortcodes-columns, {
 	font-size: 10px;
-	padding: 4px 0;
+	padding: 4px 0 1px;
 	p{
 		line-height: 1.45;
 	}
@@ -599,7 +599,7 @@ h3{
 		font-size: 10px;
 		line-height: 1.35;
 		@include media('>=screen-md'){
-			font-size: $font-size-h5;
+			font-size: 18px;
 			padding: 24px 0 0 50px;
 		}
 		&:before{
@@ -622,7 +622,7 @@ h3{
 }
 .shortcodes-tabs{
 	@include media('>=screen-md'){
-		padding: 22px 0 1px;
+		padding: 20px 0 1px;
 	}
 }
 .shortcodes-buttons{
@@ -632,7 +632,7 @@ h3{
 }
 .shortcodes-boxes{
 	@include media('>=screen-md'){
-		padding: 14px 0 40px;
+		padding: 14px 0 38px;
 	}
 }
 .shortcodes-decor{
@@ -701,12 +701,11 @@ h3{
 	.tabs-holder{
 		padding-left: 20px;
 		border-left: 5px solid rgba(#fff, .5);
-		/*min-height: 303px;*/
 		ul{
 			padding: 0;
 		}
 		.nav-tabs{
-			margin-bottom: 11px;
+			margin-bottom: 9px;
 			li > a{
 				padding: 8px 18px;
 				font-size: $font-size-base;
@@ -753,7 +752,7 @@ h3{
 	background: $nav-bg;
 }
 .box-holder{
-	padding: 5px 0 15px 20px;
+	padding: 2px 0 16px 19px;
 	border-left: 5px solid rgba(#fff, .5);
 	background: rgba(#fff, .10);
 	margin-bottom: 10px;
@@ -820,11 +819,11 @@ h3{
 	}
 }
 .box{
-	padding: 23px 5px 15px 85px;
+	padding: 21px 5px 15px 85px;
 	margin-bottom: 10px;
 	position: relative;
 	@include media('>=screen-sm'){
-		margin-bottom: 20px;
+		margin-bottom: 22px;
 	}
 }
 .contact{
@@ -859,7 +858,7 @@ input[type="submit"]{
 	}
 }
 .btn-submit{
-	margin: 2px -6px 0;
+	margin: 3px -6px 0;
 	@include media('>=screen-sm'){
 		text-align: right;
 	}
@@ -892,6 +891,7 @@ textarea {
 }
 .contact__form{
 	padding: 0 5px;
+	margin-top: -3px;
 }
 .contact-form{
 	padding: 5px 0 0;
@@ -905,7 +905,7 @@ textarea {
 }
 .contact__info{
 	@include media('>=screen-sm'){
-		margin: 30px 0 46px;
+		margin: 29px 0 45px;
 	}
 	h3{
 		margin-bottom: 19px;
